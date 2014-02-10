@@ -32,21 +32,107 @@
 			Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.
 			CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
 			Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
-			Voor vragen of opmerkingen kunt u contact <a href="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4/">contact</a> met ons opnemen.
-			Contactgegevens:
-			! Naam
-			! Bedrijf
-			! Adres
-			! Postcode
-			! Plaats
-			! Telefoon
-			! Email
-			Ik wil mijn aanmelden:
-			! Voor een project
-			! Als stagebedrijf
+			Voor vragen of opmerkingen kunt u contact <a href="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4/">contact</a> met ons opnemen. 
 		</p>
-    </article>
-    
+	</article>
+
+			<form class="contactform" method="post" action="static/php/index.php">
+				<p>Contactgegevens</p>
+            <input id="name" name="name" placeholder="Naam">
+            <input id="bedrijf" name="name" placeholder= "Bedrijf">
+            <input id="adres" name="name" placeholder="Adres">
+            <input id="postcode" name="name" placeholder="Postcode">
+            <input id="plaats" name="name" placeholder="Plaats">
+            <input id ="telefoon" name="name" placeholder="Telefoon">
+            <input id="email" name="name" type="email" placeholder="E-mail">
+            </form>
+
+			<form class="contactform" method="post" action="static/php/index.php">
+				<p>Ik wil mij aanmelden:</p>
+            <input id="submitP" name="submit" type="submit" value="Voor een project">
+            <input id="submitS" name="submit" type="submit" value="Als stagebedrijf">
+
+    <table>
+    	<tr>
+    		<th scope="col">Project</th>
+    		<th scope="col">Stage</th>
+    	</tr>
+    	<tr>
+    		<td>
+    			<ol>
+    				<li>Titel</li>
+    				<li>Opdrachtomschrijving</li>
+    				<li>Doelgroepomschrijving</li>
+    				<li>Doelstelling/intentie</li>
+    				<li>Looptijd</li>
+    				<li>Deadline</li>
+    			</ol>
+    		</td>
+    		<td>Geschikt voor
+    			<ol>
+    				<li>Tweedejaars studenten</li>
+    				<li>Afstudeer stage</li>
+    				<li>Onbekend</li>
+    			</ol>
+    		</td>
+    	</tr>
+
+    	<tr>
+    		<td>Geschikt voor
+    			<ol>
+    				<li></li>
+    				<li>Eerstejaars studenten</li>
+    				<li>Tweedejaars studenten</li>
+    				<li>Derdejaars studenten</li>
+    				<li>Afstudeer studenten</li>
+    				<li>Onbekend</li>
+    			</ol>
+    		</td>
+    		<td>
+    			<ol>
+    				<li>Hoe lang is de stage
+    					<ul>
+    						<li>-10 weken</li>
+    						<li>-20 weken</li>
+    					</ul>
+    				</li>
+    				<li>Begin datum</li>
+    			</ol>
+    		</td>
+    	</tr>
+
+    	<tr>
+    		<td>
+    		</td>
+    		<td>Beschrijving werkzaamheden:
+    			<ol>
+    				<li>Beschrijving stagewerkzaamheden</li>
+    			</ol>
+    		</td>
+    	</tr>
+
+    	<tr>
+    		<td>
+    		</td>
+    		<td>Beschrijving stagebedrijf
+    			<ol>
+    				<li>Bedrijfsnaam</li>
+    				<li>Adres</li>
+    				<li>Postcode</li>
+    				<li>Plaats</li>
+    				<li>Sector</li>
+    				<li>Core Business</li>
+    			</ol>
+    		</td>
+    	</tr>
+
+    	<tr>
+    		<td>Opmerking</td>
+    		<td>Opmerking</td>
+    	</tr>
+    	
+    </table>
+
 </body>
 
 </html>
