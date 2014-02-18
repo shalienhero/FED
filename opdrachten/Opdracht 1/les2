@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>FED Oefening</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="HTML5 opmaak" />
+	<meta name="author" content="Shalien Gieske" />
+	<meta name="keywords" content="front end development" />
+	<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="behavior.js"></script>
+</head>
+
+<body>
+
+	<form class="contactform" method="post" action="static/php/index.php">
+		<p>Contactgegevens</p>
+		<ol>
+	        <li><ul type="a"><label for="naam">Naam</label>
+	        	<input id="name" name="name" type="text" placeholder="Naam"></ul>
+	        <ul><label for="email">Email</label>
+	        	<input id="email" name="name" type="email" placeholder= "Vul een geldig E-mailadres in"></ul>
+	        <ul><label for="straatnaam">Straatnaam</label>
+	        	<input id="straatnaam" name="name" type="text" placeholder="Straatnaam"></ul>
+	        <ul><label for="nummer">Nummer</label>
+	        	<input id="nummer" name="name" type="number" placeholder="Huisnummer"></ul>
+	        <ul><label for="postcode">Postcode</label>
+	        	<input id="postcode" name="name" type="text" placeholder="Postcode"></ul>
+	        <ul><label for="land">Land</label>
+	        	<input id ="land" name="name" type="text" placeholder="Land"></ul>
+	        <ul><label for="telefoonnummer">Telefoonnummer</label>
+	        	<input id="telefoonnr" name="name" type="number" placeholder="Telefoonnummer"></ul>
+	    </ol>
+	</form>
+
+	<form class="contactform" method="post" action="static/php/index.php">
+		<p>Voorkeuren</p>
+        <input id="lievelingskleur" name="name" type="name" value="Lievelingskleur">
+        <input id="leukste maand" name="name" type="name" value="Leukste maand">
+        <input id="hoegoedisdit" name="name" type="number" value="Hoe goed is dit ongeveer? (1t/m10)">
+    </form>
+
+</body>
+
+</html>
